@@ -2,6 +2,7 @@ body{
     background-image:url(../img/Fondo.png);
     background-repeat: no-repeat;
     background-size: 100vw;
+    overflow: hidden;
 }
 @font-face {
     font-family: myFirstFont;
