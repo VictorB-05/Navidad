@@ -5,7 +5,7 @@ background-image:url(../img/pesadilla-antes-navidad-santa-jack-6537cd40a66ab.png
 }
     @font-face {
         font-family: myFirstFont;
-        src: url(../img/magic_school_one.ttf),  format('truetype');   /*compatibilidad con  Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5  */
+        src: url(../fonts/magic_school_one.ttf),  format('truetype');   /*compatibilidad con  Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5  */
     
     }
     .principal{
