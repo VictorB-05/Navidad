@@ -27,17 +27,22 @@ iframe{
     src: url(../fonts/one\ piece\ font.ttf),  format('truetype');   /*compatibilidad con  Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5  */
 }
 .titulo{
-    width: 99%;
-    height: 10%;    
-    text-align: center;
+    position: relative;
+    width: 24%;
+    height: 12%;    
+    left: 36%;
+    top: 10%;
+    background-color: darkgray;
 }
 .titulo>h1{
     font-family: myOneFont, Fantasy;/*Fuente*/
     position: absolute;
     text-align: center;
+    padding-left: 6%;
     margin: 0px;
     font-size: 7.5em;
-    color:rgb(9, 255, 0);
-    left: 38%;
-    top: 10%;
+    background: -webkit-linear-gradient(rgb(255, 255, 255),red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
 }
