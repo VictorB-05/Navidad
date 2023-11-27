@@ -84,7 +84,7 @@ a>img:hover{
 @keyframes moverIzquierdaDerecha {
     0% {
       /* Estado inicial del cuadrado e imagen */
-      transform: translateX(-10vw);
+      transform: translateX(110vw);
     }
     50% {
       /* Estado intermedio a la mitad de la animación */
@@ -92,17 +92,13 @@ a>img:hover{
     }
     100% {
       /* Estado final del cuadrado e imagen */
-      transform: translateX(110vw);
+      transform: translateX(-10vw);
     }
   }
   
   /* Estilo del cuadrado e imagen */
-  .cuadrado{
-    width: 10em;
-    height: 10em;
-  }
   .imagen-superpuesta {
-    width: 0%;
+    width: 10%;
     height: auto;
     position: absolute;
     top: 20%;
