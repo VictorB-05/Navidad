@@ -80,3 +80,32 @@ a>img:hover{
 #P{
     width: 5em;
 }
+/* Definición de la animación */
+@keyframes moverIzquierdaDerecha {
+    0% {
+      /* Estado inicial del cuadrado e imagen */
+      transform: translateX(-10vw);
+    }
+    50% {
+      /* Estado intermedio a la mitad de la animación */
+      transform: translateX(50vw);
+    }
+    100% {
+      /* Estado final del cuadrado e imagen */
+      transform: translateX(110vw);
+    }
+  }
+  
+  /* Estilo del cuadrado e imagen */
+  .cuadrado{
+    width: 10em;
+    height: 10em;
+  }
+  .imagen-superpuesta {
+    width: 0%;
+    height: auto;
+    position: absolute;
+    top: 20%;
+    left: 0;
+    animation: moverIzquierdaDerecha 8s ease-in-out infinite;
+  }
