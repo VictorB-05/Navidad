@@ -1,4 +1,39 @@
 body{
-background-image:url(../img/Fondo.png);
+background-image:url(../img/Fondo2.png);
     background-repeat: no-repeat;
-    background-size: 100vw;}
+    background-size: 100vw;
+}
+    @font-face {
+        font-family: myFirstFont;
+        src: url(../img/magic_school_one.ttf),  format('truetype');   /*compatibilidad con  Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5  */
+    
+    }
+    .principal{
+        left: 0;
+        top: 0;
+        margin: 0;
+        size: 100vw;
+        height: 90vh;
+        margin:0;
+    }
+    .titulo{
+        position: relative;
+        font-size: 18px;
+        margin: 0cm;
+    }
+    div>p{
+        position: relative;
+        font-family: myTwoFont, Fantasy;
+        color: rgb(51, 255, 0);
+        font-size: 2em;
+        margin: 0;
+    }
+    .titulo>h1{
+        font-family: myFirstFont, Fantasy;/*Fuente*/
+        position: absolute;
+        width: 99%;
+        text-align: center;
+        margin: 0px;
+        font-size: 7.5em;
+        color:rgb(47, 0, 255);
+    }
