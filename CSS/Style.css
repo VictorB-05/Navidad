@@ -5,12 +5,12 @@ body{
 }
 @font-face {
     font-family: myFirstFont;
-    src: url(../img/magic_school_one.ttf),  format('truetype');   /*compatibilidad con  Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5  */
+    src: url(../fonts/magic_school_one.ttf),  format('truetype');   /*compatibilidad con  Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5  */
   
 }
 @font-face {
     font-family: myTwoFont;
-    src: url(../img/magic_school_two.ttf),  format('truetype');   /*compatibilidad con  Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5  */
+    src: url(../fonts/magic_school_two.ttf),  format('truetype');   /*compatibilidad con  Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5  */
 }
 .principal{
     left: 0;
