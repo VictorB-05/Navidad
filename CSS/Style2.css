@@ -18,7 +18,7 @@ background-image:url(../img/pesadilla.png);
     }
     .titulo{
         position: relative;
-        font-size: 18px;
+        font-size: 15px;
         margin: 0cm;
     }
     div>p{
@@ -47,3 +47,47 @@ background-image:url(../img/pesadilla.png);
         margin-bottom: 0;
         z-index: 2;
     }
+
+a>img{
+     /* tamaño 4em y auto para no descuadrar la imagen*/
+    width: 6em;
+    height: auto;
+    position: fixed;
+}
+a>img:hover{
+    width: 7em;
+    height: auto;
+}
+.A{
+    width: 10em;
+    position: fixed;
+    padding-left: 12%;
+}
+#P{
+    width: 5em;
+}
+/* Definición de la animación */
+@keyframes moverIzquierdaDerecha {
+    0% {
+      /* Estado inicial del cuadrado e imagen */
+      transform: translateX(110vw);
+    }
+    50% {
+      /* Estado intermedio a la mitad de la animación */
+      transform: translateX(50vw);
+    }
+    100% {
+      /* Estado final del cuadrado e imagen */
+      transform: translateX(-10vw);
+    }
+  }
+  
+  /* Estilo del cuadrado e imagen */
+  .imagen-superpuesta {
+    width: 10%;
+    height: auto;
+    position: absolute;
+    top: 20%;
+    left: 0;
+    animation: moverIzquierdaDerecha 8s ease-in-out infinite;
+  }
