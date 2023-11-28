@@ -77,15 +77,18 @@ a > img:hover {
 
 #P {
     width: 5em;
-}
+} 
 
 @keyframes moverIzquierdaDerecha {
     0% {
       transform: translateX(110vw);
     }
-    50% {
+    33% {
       transform: translateX(50vw);
     }
+    66%{
+        transform: translateY(40vh);
+      }
     100% {
       transform: translateX(-10vw);
     }
