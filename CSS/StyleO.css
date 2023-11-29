@@ -2,6 +2,7 @@ body{
     background-image:url(../img/fondoO.jpg);
     background-repeat: no-repeat;
     background-size: 100vw;
+    overflow: hidden;
 }
 #principal{
     left: 0;
@@ -46,3 +47,30 @@ iframe{
     -webkit-text-fill-color: transparent;
 
 }
+@keyframes moverabajo {
+    0% {
+      /* Estado inicial del cuadrado e imagen */
+      transform: translateY(110vh);
+    }
+    50% {
+      /* Estado intermedio a la mitad de la animación */
+      transform: translateY(0%);
+    }
+    100% {
+      /* Estado final del cuadrado e imagen */
+      transform: translateY(110vh);
+    }
+  }
+  
+  /* Estilo del cuadrado e imagen */
+  .pinguino {
+    width: 10%;
+    height: 100vh;
+    position: relative;
+    left: 0;
+    animation: moverabajo 8s ease-in-out infinite;
+  }
+  img{
+    position: relative;
+   
+  }
