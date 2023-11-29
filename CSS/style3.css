@@ -2,10 +2,17 @@ body{
     background-image:url(../img/Tren.png);
     background-repeat: no-repeat;
     background-size: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
 }
 @font-face {
     font-family: blood;
-    src: url(../fonts/bloodcrowc.ttf),  format('truetype',contours );   /*compatibilidad con  Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5  */
+    src: url(../fonts/Nabla.ttf),  format('truetype');   /*compatibilidad con  Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5  */
+}
+.principal{
+    size: 100vw;
+    height: 100vh;
 }
 .titulo>h1{
     font-family: blood;/*Fuente*/
@@ -14,5 +21,14 @@ body{
     text-align: center;
     margin: 0px;
     font-size: 7.5em;
-    color:red;
+    color:rgb(100, 0, 0);
+}
+img{
+    height: 20em;
+    width: auto;
+}
+.img{
+    position: relative;
+    top:75%;
+    left: 0;
 }
