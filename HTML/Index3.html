@@ -8,8 +8,25 @@
 </head>
 <body>
     <div class="principal">
-        <div class="titulo"><h1>Y que puedas viajar a cualquier lado</h1></div>
-        <div class="img"><img src="../img/Regoku.png" alt=""></div>
+        <div class="titulo">
+            <h1>Y que puedas viajar a cualquier lado</h1>
+        </div>
+        <div class="img">
+            <img src="../img/Regoku.png" alt="">
+        </div>
+    </div>
+    <div>
+    <form>
+        <label for="nombre">Nombre</label>
+        <input type="text" name="nombre" id="nombre" placeholder=""/> 
+
+        <label for="asunto">Destino</label>
+        <input type="text" name="asunto" id="asunto" placeholder=""/>
+
+        <textarea name="mensaje" for="mensaje" placeholder="Solo puede pagarse en efectivo." maxlength="300"></textarea>
+        
+        <input type="submit" name="enviar" value="Enviar datos"/>
+    </form>
     </div>
 </body>
 </html>
